@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: hsl(0, 0%, 100%);
+
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--Stone-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vsh;
+    padding: 16px;
+}
+
+.card{
+    background-color: var(--white-color);
+    border-radius: 15px;
+    max-width: 30rem;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: var(--Brown-800);
+    margin-bottom: 1rem;
+}
+
+.preparation{
+    background-color: var(--Rose-50);
+    border-radius: 10px;
+    padding: 16px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 1.30rem;
+    margin-bottom: 1.30rem;
+}
+
+.preparation h3{
+    color: var(--Rose-800);
+    margin-bottom: 0.7rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.preparation ul li{
+    margin-left: 24px;
+    color: var(--Rose-800);
+    margin-bottom: 0.625rem;
+}
+
+strong{
+    color: rgb(28, 23, 23);
+    margin-left: 12px;
+    color: var(--Stone-600);
+}
+
+span{
+    margin-left: 5px;
+    color: var(--Stone-600);
+}
+
+p{
+    color: var(--Stone-600);
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+.ingredients{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients ul{
+    color: var(--Rose-800);
+    line-height: 1.7rem;
+}
+
+.ingredients ul li{
+    margin-left: 24px;
+}
+
+hr{
+    margin-bottom: 1rem;
+}
+
+.instructions{
+    margin-bottom: 1rem;
+}
+
+.instructions ol li{
+    color: var(--Brown-800);
+    margin-left: 24px;
+    margin-bottom: 0.5rem;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    color: var(--Stone-600);
+}
+
+table td{
+    text-indent: 2.3rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 1rem;
+}
+
+.measurements{
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+
+.attribution{
+    position: static;
+    bottom: 0;
+}
